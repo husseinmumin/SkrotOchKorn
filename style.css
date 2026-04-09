@@ -173,5 +173,10 @@ tr:nth-child(even) td
     color: #2a2018;
 }
 
-
+.video-container
+{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 
