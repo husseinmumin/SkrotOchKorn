@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media - Skrot och Korn AB</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+        <a href="media.html">Media</a>
+    </nav>
+    <header>
+        <h1>Contact Us</h1>
+        <p>Get in touch whit our team</p>
+    </header>
+    <main>
+        <section>
+            <h2>Our Team</h2>
+
+           <ul class="staff-list">
+            <li>
+                <img src="images/employee1.avif" alt="Linda Andersson" width="150">
+                <p>Linda Andersson</p>
+                <a href="mailto:linda@skrotkorn.se">linda@skrotkorn.se</a>
+            </li>
+            <li>
+                <img src="images/employee2.avif" alt="Kurt Kornqvist" width="150">
+                <p>Kurt Kornqvist</p>
+                <a href="mailto:kurt@skrotkorn.se">kurt@skrotkorn.se</a>
+            </li>
+            <li>
+                <img src="images/employee3.avif" alt="Anna Svensson" width="150">
+                <p>Anna Svensson</p>
+                <a href="mailto:goran@skrotkorn.se">anna@skrotkorn.se</a>
+            </li>
+            <li>
+                <img src="images/employee4.avif" alt="Göran Kornqvist" width="150">
+                <p>Göran Kornqvist</p>
+                <a href="mailto:anna@skrotkorn.se">goran@skrotkorn.se</a>
+            </li>
+           </ul>
+
+        </section>
+        <section>
+            <h2>Contact Form</h2>
+
+            <form action="" method="post">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text"><br><br>
+
+                <label for="address">Address</label>
+                <input id="address" name="address" type="text"><br><br>
+
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email"><br><br>
+
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" type="tel"><br><br>
+           
+
+            <p>Customer type:</p>
+                <input type="radio" id="private" name="customer_type" value="Private">
+                <label for="private">Private</label><br>
+
+                <input type="radio" id="company" name="customer_type" value="Company">
+                <label for="company">Company</label><br><br>
+
+            <p>Company size:</p>
+                <input type="radio" id="small" name="company_size" value="1-100">
+                <label for="small">1-100 employees</label><br>
+
+                <input type="radio" id="medium" name="company_size" value="101-1000">
+                <label for="medium">101-1000 employees</label><br>
+
+                <input type="radio" id="large" name="company_size" value="1000+">
+                <label for="large">More than 1000 employees</label><br><br>    
+                
+                <label for="message">Your message</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+                <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                <label for="newsletter">I want to receive newsletter</label><br>
+
+                <input type="checkbox" id="phone_contact" name="phone_contact" value="yes">
+                <label for="phone_contact">I want to be contacted by phone</label><br><br>
+
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+    <p>© 2024 Skrot och Korn AB | Tel: 016-123 456 | 
+    <a href="mailto:info@skrotkorn.se">info@skrotkorn.se</a></p>
+    </footer>
+    
+</body>
+</html>
