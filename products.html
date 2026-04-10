@@ -6,14 +6,10 @@
     <title>Skrot och korn AB</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="products.html">Products</a>
-        <a href="contact.html">Contact</a>
-        <a href="media.html">Media</a>
-    </nav>
+    <nav></nav>
 
     <header>
         <h1>Our Products</h1>
@@ -36,6 +32,7 @@
                 <tbody>
                     <tr>
                         <td>
+                        <input type="checkbox" id="excavator" value="1200000" onclick="calculateTotal()">
                         <img src="images/excat.webp" alt="Excavator CAT 320" width="120"><br> Excavators CAT 320</td>
                         <td>1 200 000 kr</td>
                         <td>1 500 000 kr</td>
@@ -43,6 +40,7 @@
                     </tr>
                     <tr>
                         <td>
+                        <input type="checkbox" id="crane" value="2800000" onclick="calculateTotal()">
                         <img src="images/crane.jpg" alt="Liebherr LTM 1060" width="120"><br>Crane Liebherr LTM 1060</td>
                         <td>2 800 000 kr</td>
                         <td>3 500 000 kr</td>
@@ -50,6 +48,7 @@
                     </tr>
                     <tr>
                         <td>
+                        <input type="checkbox" id="truck" value="1640000" onclick="calculateTotal()">
                         <img src="images/volvo.webp" alt="Volvo FH16" width="120"><br>Truck Volvo FH16</td>
                         <td>1 640 000 kr</td>
                         <td>2 050 000 kr</td>
@@ -57,6 +56,7 @@
                     </tr>
                 </tbody>
             </table>
+            <div id="totalprice">Total: 0 kr</div>
         </section>
     </main>
     <aside>
